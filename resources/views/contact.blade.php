@@ -188,10 +188,10 @@
 ============================== -->
     <div class="container th-container2">
         <div class="breadcumb-wrapper  " data-bg-src="assets/img/breadcumb/breadcumb-bg-2.png">
-            <h1 class="breadcumb-title">Contact Us</h1>
+            <h1 class="breadcumb-title">Contactez-nous</h1>
             <ul class="breadcumb-menu">
-                <li><a href="{{ route('home') }}">Home</a></li>
-                <li>Contact Us</li>
+                <li><a href="{{ route('home') }}">Accueil</a></li>
+                <li>Contactez-nous</li>
             </ul>
         </div>
     </div>

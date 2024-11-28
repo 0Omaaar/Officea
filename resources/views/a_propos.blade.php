@@ -195,19 +195,20 @@
     Breadcumb
 ============================== -->
     <div class="container th-container2">
-        <div class="breadcumb-wrapper  " data-bg-src="assets/img/breadcumb/breadcumb-bg-2.png">
-            <h1 class="breadcumb-title">About Us</h1>
+        <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg-2.png">
+            <h1 class="breadcumb-title">À Propos de Nous</h1>
             <ul class="breadcumb-menu">
-                <li><a href="index.html">Home</a></li>
-                <li>About Us</li>
+                <li><a href="{{ route('home') }}">Accueil</a></li>
+                <li>À Propos de Nous</li>
             </ul>
         </div>
+    </div>
     </div>
 
     <!--==============================
 About Area  
 ==============================-->
-<section class="space">
+    <section class="space">
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-xl-5 col-lg-6">
@@ -217,28 +218,55 @@ About Area
                 </div>
                 <div class="col-xl-7 col-lg-6">
                     <div class="project-details">
-                        <span class="sub-title">Une  affaire de  famille </span>
+                        <span class="sub-title">Une affaire de famille </span>
                         <h2 class="sec-title fw-normal mb-40">Quelques mots A PROPOS
                             <span class="text-theme">de NOUS</span>
                         </h2>
                         <div class="project-content">
                             <p class="mb-20">Officea est le fruit d'une collaboration entre deux entrepreneuses ayant une solide expérience dans le domaine comptable. Avant de se lancer dans cette aventure, elles dirigeaient un cabinet comptable et ont rencontré de nombreux entrepreneurs à la recherche d'un business center flexible et abordable. C'est ainsi qu'Officea a vu le jour pour répondre à cette demande croissante.</p>
-                            
-                        <h3 class="sec-title fw-normal mb-40">Un bureau 
-                            <span class="text-theme">agrémenté</span>
-                        </h3>
-                        <p class="mb-20">L'article 6 de la loi du 28 mars 2018 portant sur l'enregistrement des prestataires de services aux sociétés oblige toute entreprise offrant des services de domiciliation commerciale à s'enregistrer auprès du SPF ECONOMIE. L'obtention de cet agrément suppose la mise en conformité des bureaux. Soucieuse de fournir une sécurité juridique à ses clients, Officea fut parmi les premières entreprises belges à obtenir cet enregistrement.</p>
+
+                            <h3 class="sec-title fw-normal mb-40">Un bureau
+                                <span class="text-theme">agrémenté</span>
+                            </h3>
+                            <p class="mb-20">L'article 6 de la loi du 28 mars 2018 portant sur l'enregistrement des prestataires de services aux sociétés oblige toute entreprise offrant des services de domiciliation commerciale à s'enregistrer auprès du SPF ECONOMIE. L'obtention de cet agrément suppose la mise en conformité des bureaux. Soucieuse de fournir une sécurité juridique à ses clients, Officea fut parmi les premières entreprises belges à obtenir cet enregistrement.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
-<!--==============================
+    <!--==============================
 Testimonial Area  
 ==============================-->
-    
+ <section class="space">
+        <div class="container">
+            <div class="row flex-row-reverse">
+                <div class="col-xl-5 col-lg-6">
+                    <div class=" mb-5 mb-lg-0">
+                        <img class="w-100" src="assets/img/project/project_details.jpg" alt="project">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-6">
+                    <div class="project-details">
+                        <span class="sub-title">Une affaire de famille </span>
+                        <h2 class="sec-title fw-normal mb-40">Quelques mots A PROPOS
+                            <span class="text-theme">de NOUS</span>
+                        </h2>
+                        <div class="project-content">
+                            <p class="mb-20">Officea est le fruit d'une collaboration entre deux entrepreneuses ayant une solide expérience dans le domaine comptable. Avant de se lancer dans cette aventure, elles dirigeaient un cabinet comptable et ont rencontré de nombreux entrepreneurs à la recherche d'un business center flexible et abordable. C'est ainsi qu'Officea a vu le jour pour répondre à cette demande croissante.</p>
+
+                            <h3 class="sec-title fw-normal mb-40">Un bureau
+                                <span class="text-theme">agrémenté</span>
+                            </h3>
+                            <p class="mb-20">L'article 6 de la loi du 28 mars 2018 portant sur l'enregistrement des prestataires de services aux sociétés oblige toute entreprise offrant des services de domiciliation commerciale à s'enregistrer auprès du SPF ECONOMIE. L'obtention de cet agrément suppose la mise en conformité des bureaux. Soucieuse de fournir une sécurité juridique à ses clients, Officea fut parmi les premières entreprises belges à obtenir cet enregistrement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <!--==============================
 Footer Area
 ==============================-->
@@ -336,4 +364,5 @@ Footer Area
                         Les entreprises, filiales, succursales, ou organismes de représentation souhaitant disposer d’une adresse prestigieuse au cœur de l’Europe, tout en optimisant leurs coûts opérationnels.
 
                         Les entrepreneurs et dirigeants qui voyagent ou travaillent à l’étranger et qui souhaitent recevoir leur courrier à tout moment, en toute sécurité.</p> -->
+
 </html>
