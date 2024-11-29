@@ -57,6 +57,14 @@
                 display: none !important;
             }
         }
+
+        section.space h5.title {
+            color: #f3d590;
+        }
+
+        .qstsImages {
+            margin-top: -66%;
+        }
     </style>
 
 </head>
@@ -223,8 +231,7 @@ Team Area
                             <p class="title">Contactez-nous par WhatsApp!</p>
                             <div class="th-social">
                                 <a target="_blank" href="https://whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-                                <a target="_blank" href="https://skype.com/"><i class="fab fa-skype"></i></a>
-                                <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                
                             </div>
                         </div>
                         <h5 class="title">Qu'est-ce que la domiciliation?</h5>
@@ -295,19 +302,19 @@ Team Area
                                     <ul>
                                         <li>Activité en tant que personne morale (SPRL, SA, SCS,...) Le transfert de siège social doit faire l'objet d'une décision des représentants de la société via assemblée générale. Ensuite, celle-ci doit être publiée au Moniteur belge. La nouvelle adresse doit également être communiquée à la BCE et à la TVA.</li>
                                         <li>Activité en tant que personne physique (indépendant, indépendant TVA étranger) La nouvelle adresse commerciale doit être communiquée et transcrite à la BCE. Nous pouvons effectuer les démarches en votre nom. (Tarif 150€ HTVA) Plus d'informations:</li>
-                                        <li><a  href="https://www.yelomex.com/_files/ugd/3fa1a3_637db07edd6649d9a8222dc721b8d3c3.pdf" target="_blank">Version PDF</a></li>
-                                        <li><a  href="https://www.yelomex.com/_files/ugd/3fa1a3_00767aef4b0a43b8af0491d5f75fb03c.pptx?dn=Descriptif%20publication.pptx" target="_blank">Version Powerpoint</a></li>
+                                        <li><a href="https://www.yelomex.com/_files/ugd/3fa1a3_637db07edd6649d9a8222dc721b8d3c3.pdf" target="_blank">Version PDF</a></li>
+                                        <li><a href="https://www.yelomex.com/_files/ugd/3fa1a3_00767aef4b0a43b8af0491d5f75fb03c.pptx?dn=Descriptif%20publication.pptx" target="_blank">Version Powerpoint</a></li>
                                     </ul>
                                     <h5 class="title">Pouvez-vous réceptionner les recommandés en mon nom?</h5>
-                                    <p class="mb-25">Grâce à la procuration postale flexible à usage professionnel de Bpost, nous pouvons recueillir tous vos recommandés en votre nom et vous les faire ensuite parvenir.  Moyennant 54.95€, vous recevez une carte de procuration non-nominative qui mandate notre bureau sur une durée de trois ans.</p>
-                                    
+                                    <p class="mb-25">Grâce à la procuration postale flexible à usage professionnel de Bpost, nous pouvons recueillir tous vos recommandés en votre nom et vous les faire ensuite parvenir. Moyennant 54.95€, vous recevez une carte de procuration non-nominative qui mandate notre bureau sur une durée de trois ans.</p>
+
                                     <ul>
-                                    <li><a  href="http://www.bpost.be/site/fr/solutions-professionnelles/lettres-cartes/recommandes/procuration-postale" target="_blank">Plus d'infos sur la procuration postale à usage professionnel</a></li>
+                                        <li><a href="http://www.bpost.be/site/fr/solutions-professionnelles/lettres-cartes/recommandes/procuration-postale" target="_blank">Plus d'infos sur la procuration postale à usage professionnel</a></li>
                                     </ul>
                                     <h5 class="title">Domiciliation d’une société, pourquoi faut-il en parler avec votre comptable ?</h5>
-                                    <p class="mb-25">Oui car vos frais de domiciliation peuvent être déduit de votre compte de résultat! N’hésitez pas à  prendre contact avec notre fiduciaire comptable partenaire</p>
+                                    <p class="mb-25">Oui car vos frais de domiciliation peuvent être déduit de votre compte de résultat! N’hésitez pas à prendre contact avec notre fiduciaire comptable partenaire</p>
                                     <ul>
-                                    <li><a  href="https://amarris-direct.be/cabinet/comptable-bruxelles/?utm_source=yelomex&utm_medium=link&utm_campaign=faq" target="_blank">Amarris.be</a></li>
+                                        <li><a href="https://amarris-direct.be/cabinet/comptable-bruxelles/?utm_source=yelomex&utm_medium=link&utm_campaign=faq" target="_blank">Amarris.be</a></li>
                                     </ul>
                                     <h5 class="title">Le registre des parts doit-il être conservé au siège de la société?</h5>
                                     <p class="mb-25">Oui. Tout tiers intéressé doit pouvoir consulter le registre des parts au siège de la société. Cela signifie que toutes personnes en mesure de démontrer un intérêt pourra prendre connaissance du contenu du registre des parts.Parmi les tiers intéressés, on pourrait citer le SPF Finances, le SPF Economie et d'autres institutions publiques.</p>
