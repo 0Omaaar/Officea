@@ -194,10 +194,10 @@
 ============================== -->
     <div class="container th-container2">
         <div class="breadcumb-wrapper  " data-bg-src="assets/img/breadcumb/breadcumb-bg-2.jpg">
-            <h1 class="breadcumb-title">Expert Details</h1>
+            <h1 class="breadcumb-title">Questions Frequentes</h1>
             <ul class="breadcumb-menu">
-                <li><a href="index.html">Home</a></li>
-                <li>Expert Details</li>
+                <li><a href="index.html">Accueil</a></li>
+                <li>Questions Frequentes</li>
             </ul>
         </div>
     </div>
@@ -210,8 +210,8 @@ Team Area
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="qstsImages">
                         <img class="w-100" src="assets/img/team/team_details.jpg" alt="team image"> </br> </br>
-                        <img class="w-100" src="assets/img/team/team_details.jpg" alt="team image"> </br> </br>
-                        <img class="w-100" src="assets/img/team/team_details.jpg" alt="team image">
+                        <img class="w-100" src="assets/img/team/team_details1.jpg" alt="team image"> </br> </br>
+                        <img class="w-100" src="assets/img/team/team_details2.jpg" alt="team image">
                     </div>
                 </div>
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -290,18 +290,33 @@ Team Area
                                         port 1€/timbre HTVA).</li>
                                 </ul>
                                 <!--  -->
-                                <p class="mb-25"></p>
+                                <h5 class="title">Quelles démarches doivent être effectuées pour transférer le siège de ma société?</h5>
                                 <div class="inner-list mb-40">
                                     <ul>
-
+                                        <li>Activité en tant que personne morale (SPRL, SA, SCS,...) Le transfert de siège social doit faire l'objet d'une décision des représentants de la société via assemblée générale. Ensuite, celle-ci doit être publiée au Moniteur belge. La nouvelle adresse doit également être communiquée à la BCE et à la TVA.</li>
+                                        <li>Activité en tant que personne physique (indépendant, indépendant TVA étranger) La nouvelle adresse commerciale doit être communiquée et transcrite à la BCE. Nous pouvons effectuer les démarches en votre nom. (Tarif 150€ HTVA) Plus d'informations:</li>
+                                        <li><a  href="https://www.yelomex.com/_files/ugd/3fa1a3_637db07edd6649d9a8222dc721b8d3c3.pdf" target="_blank">Version PDF</a></li>
+                                        <li><a  href="https://www.yelomex.com/_files/ugd/3fa1a3_00767aef4b0a43b8af0491d5f75fb03c.pptx?dn=Descriptif%20publication.pptx" target="_blank">Version Powerpoint</a></li>
                                     </ul>
-
+                                    <h5 class="title">Pouvez-vous réceptionner les recommandés en mon nom?</h5>
+                                    <p class="mb-25">Grâce à la procuration postale flexible à usage professionnel de Bpost, nous pouvons recueillir tous vos recommandés en votre nom et vous les faire ensuite parvenir.  Moyennant 54.95€, vous recevez une carte de procuration non-nominative qui mandate notre bureau sur une durée de trois ans.</p>
+                                    
+                                    <ul>
+                                    <li><a  href="http://www.bpost.be/site/fr/solutions-professionnelles/lettres-cartes/recommandes/procuration-postale" target="_blank">Plus d'infos sur la procuration postale à usage professionnel</a></li>
+                                    </ul>
+                                    <h5 class="title">Domiciliation d’une société, pourquoi faut-il en parler avec votre comptable ?</h5>
+                                    <p class="mb-25">Oui car vos frais de domiciliation peuvent être déduit de votre compte de résultat! N’hésitez pas à  prendre contact avec notre fiduciaire comptable partenaire</p>
+                                    <ul>
+                                    <li><a  href="https://amarris-direct.be/cabinet/comptable-bruxelles/?utm_source=yelomex&utm_medium=link&utm_campaign=faq" target="_blank">Amarris.be</a></li>
+                                    </ul>
+                                    <h5 class="title">Le registre des parts doit-il être conservé au siège de la société?</h5>
+                                    <p class="mb-25">Oui. Tout tiers intéressé doit pouvoir consulter le registre des parts au siège de la société. Cela signifie que toutes personnes en mesure de démontrer un intérêt pourra prendre connaissance du contenu du registre des parts.Parmi les tiers intéressés, on pourrait citer le SPF Finances, le SPF Economie et d'autres institutions publiques.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div>
-                            <a href="contact.html" class="th-btn"><span class="line left"></span> Quick Contact <span
+                            <a href="{{ route('contact') }}" class="th-btn"><span class="line left"></span> Quick Contact <span
                                     class="line"></span></a>
                         </div>
                     </div>
@@ -328,10 +343,12 @@ Testimonial Area
                                 </div>
                             </div>
                             <div class="testi-card_content">
-                                <p class="h3 testi-card_text">Each penny at Baroque is completed committed, educated,
-                                    and supportive. The unimaginably item was delightful, and worth each penny. I would
-                                    totally suggest educate</p>
-                                <h6 class="testi-card_desig">CEO at <span class="text-theme">Just Awesome</span></h6>
+                                <p class="h3 testi-card_text">Chaque centime investi chez Officea a été parfaitement
+                                    utilisé grâce à leur service professionnel, compétent et à l'écoute. Le suivi de mon
+                                    courrier a été géré de manière flexible et efficace, avec une récupération rapide
+                                    des recommandés et des solutions adaptées à mes besoins. Un service de qualité qui
+                                    vaut vraiment chaque euro investi. Je recommande vivement leurs services !</p>
+                                <h6 class="testi-card_desig">PDG chez <span class="text-theme">Just NXT</span></h6>
                             </div>
                         </div>
                     </div>
@@ -344,10 +361,14 @@ Testimonial Area
                                 </div>
                             </div>
                             <div class="testi-card_content">
-                                <p class="h3 testi-card_text">Worth each at Baroque is unimaginably committ, educated,
-                                    and supportive. The completed item was delightful, and worth each penny. I would
-                                    totally suggest committ</p>
-                                <h6 class="testi-card_desig">Director at <span class="text-theme">Kunfango</span></h6>
+                                <p class="h3 testi-card_text">Les services chez Officea sont d'une qualité
+                                    exceptionnelle, avec une équipe réactive et à l'écoute. La gestion de mon courrier a
+                                    été impeccable, répondant parfaitement à mes besoins, qu'il s'agisse de scans
+                                    urgents ou de la récupération de recommandés. Une équipe expérimentée qui offre un
+                                    service sur-mesure, parfaitement adapté à mes attentes. Je recommande vivement leurs
+                                    services !</p>
+                                <h6 class="testi-card_desig">Directeur chez <span class="text-theme">ATK Global</span>
+                                </h6>
                             </div>
                         </div>
                     </div>
@@ -360,10 +381,11 @@ Testimonial Area
                                 </div>
                             </div>
                             <div class="testi-card_content">
-                                <p class="h3 testi-card_text">Educated at Baroque is supportive committed, educated,
-                                    and unimaginably. The completed item was delightful, and worth each penny. I would
-                                    totally suggest complete</p>
-                                <h6 class="testi-card_desig">Manager at <span class="text-theme">Jangalok</span></h6>
+                                <p class="h3 testi-card_text">L'équipe d'Officea est extrêmement compétente, attentive
+                                    et professionnelle. Leur service d'architecture et de création de meubles est de
+                                    premier ordre. Le meuble sur mesure que nous avons fait réaliser est superbe, et
+                                    nous sommes ravis du résultat. Je recommande vivement leurs services.</p>
+                                <h6 class="testi-card_desig">Responsable chez <span class="text-theme">MDT</span></h6>
                             </div>
                         </div>
                     </div>
