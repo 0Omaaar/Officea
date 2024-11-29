@@ -51,6 +51,14 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        @media only screen and (max-width: 768px) {
+            .qstsImages {
+                display: none !important;
+            }
+        }
+    </style>
+
 </head>
 
 <body class="">
@@ -194,20 +202,23 @@
         </div>
     </div>
     <!--==============================
-Team Area  
+Team Area
 ==============================-->
     <section class="space">
         <div class="container">
             <div class="row mb-40 align-items-center">
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="team-details-img">
+                    <div class="qstsImages">
+                        <img class="w-100" src="assets/img/team/team_details.jpg" alt="team image"> </br> </br>
+                        <img class="w-100" src="assets/img/team/team_details.jpg" alt="team image"> </br> </br>
                         <img class="w-100" src="assets/img/team/team_details.jpg" alt="team image">
                     </div>
                 </div>
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-about">
                         <h2 class="h3 team-about_title"> <span class="text-theme">QUESTIONS FREQUENTES</span>
-                            sur la domiciliation d'entreprise <span class="team-about_desig">D'autres question?Facile!</span></h2>
+                            sur la domiciliation d'entreprise <span class="team-about_desig">D'autres
+                                question?Facile!</span></h2>
                         <div class="social-box">
                             <p class="title">Contactez-nous par WhatsApp!</p>
                             <div class="th-social">
@@ -217,9 +228,15 @@ Team Area
                             </div>
                         </div>
                         <h5 class="title">Qu'est-ce que la domiciliation?</h5>
-                        <p class="mb-20">Toute société enregistrée en Belgique doit disposer d'un siège social physique établi dans le Royaume de Belgique. La domiciliation correspond au siège social de la société, autrement dit, lieu où arrive le courrier de la société et où sont conservés tous les documents légaux de celle-ci (statuts, livres des associés, pièces comptables).</p>
+                        <p class="mb-20">Toute société enregistrée en Belgique doit disposer d'un siège social
+                            physique établi dans le Royaume de Belgique. La domiciliation correspond au siège social de
+                            la société, autrement dit, lieu où arrive le courrier de la société et où sont conservés
+                            tous les documents légaux de celle-ci (statuts, livres des associés, pièces comptables).</p>
                         <h5 class="title">Comment fonctionne la domiciliation d'entreprise?</h5>
-                        <p class="mb-25">Une fois le contrat de domiciliation signé, vous disposez d'une adresse propre à votre société. Le nom de votre société et l'adresse représentent alors les coordonnées commerciales officielles que vous pouvez utiliser partout: site web, flyers, carte de visite, correspondances avec les autorités administratives,....</p>
+                        <p class="mb-25">Une fois le contrat de domiciliation signé, vous disposez d'une adresse
+                            propre à votre société. Le nom de votre société et l'adresse représentent alors les
+                            coordonnées commerciales officielles que vous pouvez utiliser partout: site web, flyers,
+                            carte de visite, correspondances avec les autorités administratives,....</p>
                         <h5 class="title">Y-a-t'il des conditions à remplir pour pouvoir domicilier sa société?</h5>
                         <p class="mb-25">Pour pouvoir domicilier son siège social, il faut</p>
                         <div class="inner-list mb-40">
@@ -230,55 +247,73 @@ Team Area
                                 <li>Effectuer la domiciliation pour une durée minimale de trois mois</li>
                             </ul>
                         </div>
-                        
+
                         <h5 class="title">je n'ai pas encore de numéro de TVA, est-ce un problème?</h5>
-                        <p class="mb-25">Pas du tout. Beaucoup de nos clients sont dans le cas! Nous remplissons alors la procédure d'inscription sur base du devis (3 mois de services payés d'avance). Vous recevez l'adresse à communiquer au notaire. Dès que vous avez activé votre numéro de TVA, nous transformons le devis en facture. Ceci vous permet de rentrer cette dépenses dans les frais de la société.</p>
-                        
-                        <h5 class="title">Une personne peut-elle établir son domicile privé dans le centre d'affaires?</h5>
-                    <p class="mb-25">Non. Notre service de domiciliation s'adresse aux personnes morales et aux entrepreneurs exerçant une activité professionnelle en tant qu'indépendant.</p>
-                    <p class="mb-25">Pourquoi? Pour pouvoir établir son domicile privé en un endroit il faut répondre à des règles précises:</p>
-                    <p class="mb-25">Vous devez signaler au service population de votre commune votre nouvelle adresse. Normalement cette déclaration doit être faite dans les 8 jours après le déménagement. La commune lance alors une enquête visant à confirmer que vous avez effectivement établi votre résidence principale à l’adresse que vous avez déclaré. Elle charge un agent de quartier ou un fonctionnaire compétent à vérifier si vous vivez effectivement à l’endroit déclaré.</p>
-                    <p class="mb-25">Les critères utilisés par les communes pour apprécier si une personne habite à un endroit sont le suivants:</p>
-                    <div class="inner-list mb-40">
+                        <p class="mb-25">Pas du tout. Beaucoup de nos clients sont dans le cas! Nous remplissons alors
+                            la procédure d'inscription sur base du devis (3 mois de services payés d'avance). Vous
+                            recevez l'adresse à communiquer au notaire. Dès que vous avez activé votre numéro de TVA,
+                            nous transformons le devis en facture. Ceci vous permet de rentrer cette dépenses dans les
+                            frais de la société.</p>
+
+                        <h5 class="title">Une personne peut-elle établir son domicile privé dans le centre d'affaires?
+                        </h5>
+                        <p class="mb-25">Non. Notre service de domiciliation s'adresse aux personnes morales et aux
+                            entrepreneurs exerçant une activité professionnelle en tant qu'indépendant.</p>
+                        <p class="mb-25">Pourquoi? Pour pouvoir établir son domicile privé en un endroit il faut
+                            répondre à des règles précises:</p>
+                        <p class="mb-25">Vous devez signaler au service population de votre commune votre nouvelle
+                            adresse. Normalement cette déclaration doit être faite dans les 8 jours après le
+                            déménagement. La commune lance alors une enquête visant à confirmer que vous avez
+                            effectivement établi votre résidence principale à l’adresse que vous avez déclaré. Elle
+                            charge un agent de quartier ou un fonctionnaire compétent à vérifier si vous vivez
+                            effectivement à l’endroit déclaré.</p>
+                        <p class="mb-25">Les critères utilisés par les communes pour apprécier si une personne habite
+                            à un endroit sont le suivants:</p>
+                        <div class="inner-list mb-40">
                             <ul>
-                               <li>la personne vit à cette adresse la plus grande partie de l’année</li>
-                               <li>la personne rejoint cette adresse après ses occupations professionnelles</li>
-                               <li>c’est le lieu de la fréquentation scolaire des enfants</li>
-                               <li>c’est le lieu de facturation des consommations d’énergie (gaz, électricité, eau)</li> 
+                                <li>la personne vit à cette adresse la plus grande partie de l’année</li>
+                                <li>la personne rejoint cette adresse après ses occupations professionnelles</li>
+                                <li>c’est le lieu de la fréquentation scolaire des enfants</li>
+                                <li>c’est le lieu de facturation des consommations d’énergie (gaz, électricité, eau)
+                                </li>
                             </ul>
-                            <p class="mb-25">Si ces critères ne sont pas remplis, l'inscription à la commune est radiée.</p>
+                            <p class="mb-25">Si ces critères ne sont pas remplis, l'inscription à la commune est
+                                radiée.</p>
                             <h5 class="title">Comment obtenir mon courrier?</h5>
                             <p class="mb-25">Différentes solutions s'offrent à vous :</p>
                             <div class="inner-list mb-40">
-                            <ul>
-                                <li>Nous ouvrons et scannons votre courrier à l'adresse mail souhaitée</li>
-                                <li>Vous vous présentez au bureau durant les heures d'ouverture afin de collecter votre courrier</li>
-                                <li>Nous ré-expédions tout votre courrier à l'adresse souhaitée (moyennant frais de port 1€/timbre HTVA).</li>
-                            </ul>
-                            <!--  -->
-                        <p class="mb-25"></p>
-                        <div class="inner-list mb-40">
-                            <ul>
+                                <ul>
+                                    <li>Nous ouvrons et scannons votre courrier à l'adresse mail souhaitée</li>
+                                    <li>Vous vous présentez au bureau durant les heures d'ouverture afin de collecter
+                                        votre courrier</li>
+                                    <li>Nous ré-expédions tout votre courrier à l'adresse souhaitée (moyennant frais de
+                                        port 1€/timbre HTVA).</li>
+                                </ul>
+                                <!--  -->
+                                <p class="mb-25"></p>
+                                <div class="inner-list mb-40">
+                                    <ul>
 
-                            </ul>
+                                    </ul>
 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a href="contact.html" class="th-btn"><span class="line left"></span> Quick Contact <span
+                                    class="line"></span></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-                    <div>
-                        <a href="contact.html" class="th-btn"><span class="line left"></span> Quick Contact <span class="line"></span></a>
-                    </div>
-                </div>
-            </div>
 
-        </div>
+            </div>
 
 
     </section>
 
     <!--==============================
-Testimonial Area  
+Testimonial Area
 ==============================-->
     <div class="space-bottom">
         <div class="container">
@@ -293,7 +328,9 @@ Testimonial Area
                                 </div>
                             </div>
                             <div class="testi-card_content">
-                                <p class="h3 testi-card_text">Each penny at Baroque is completed committed, educated, and supportive. The unimaginably item was delightful, and worth each penny. I would totally suggest educate</p>
+                                <p class="h3 testi-card_text">Each penny at Baroque is completed committed, educated,
+                                    and supportive. The unimaginably item was delightful, and worth each penny. I would
+                                    totally suggest educate</p>
                                 <h6 class="testi-card_desig">CEO at <span class="text-theme">Just Awesome</span></h6>
                             </div>
                         </div>
@@ -307,7 +344,9 @@ Testimonial Area
                                 </div>
                             </div>
                             <div class="testi-card_content">
-                                <p class="h3 testi-card_text">Worth each at Baroque is unimaginably committ, educated, and supportive. The completed item was delightful, and worth each penny. I would totally suggest committ</p>
+                                <p class="h3 testi-card_text">Worth each at Baroque is unimaginably committ, educated,
+                                    and supportive. The completed item was delightful, and worth each penny. I would
+                                    totally suggest committ</p>
                                 <h6 class="testi-card_desig">Director at <span class="text-theme">Kunfango</span></h6>
                             </div>
                         </div>
@@ -321,22 +360,26 @@ Testimonial Area
                                 </div>
                             </div>
                             <div class="testi-card_content">
-                                <p class="h3 testi-card_text">Educated at Baroque is supportive committed, educated, and unimaginably. The completed item was delightful, and worth each penny. I would totally suggest complete</p>
+                                <p class="h3 testi-card_text">Educated at Baroque is supportive committed, educated,
+                                    and unimaginably. The completed item was delightful, and worth each penny. I would
+                                    totally suggest complete</p>
                                 <h6 class="testi-card_desig">Manager at <span class="text-theme">Jangalok</span></h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="icon-box">
-                    <button data-slick-prev="#testiSlide2" class="slick-arrow default"><i class="fat fa-long-arrow-left"></i></button>
-                    <button data-slick-next="#testiSlide2" class="slick-arrow default"><i class="fat fa-long-arrow-right"></i></button>
+                    <button data-slick-prev="#testiSlide2" class="slick-arrow default"><i
+                            class="fat fa-long-arrow-left"></i></button>
+                    <button data-slick-next="#testiSlide2" class="slick-arrow default"><i
+                            class="fat fa-long-arrow-right"></i></button>
                 </div>
             </div>
         </div>
     </div><!--==============================
 Footer Area
 ==============================-->
-<footer class="footer-wrapper footer-layout3">
+    <footer class="footer-wrapper footer-layout3">
         <div class="widget-area">
             <div class="container">
                 <div class="text-center mb-40 wow fadeInUp" data-wow-delay="0.1s">
@@ -391,14 +434,16 @@ Footer Area
 
 
     <!--********************************
-			Code End  Here 
-	******************************** -->
+   Code End  Here
+ ******************************** -->
 
 
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
         </svg>
     </div>
 
