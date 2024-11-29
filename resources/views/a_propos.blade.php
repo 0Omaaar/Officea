@@ -4,11 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Artraz - Architecture HTML Template - About Us</title>
-    <meta name="author" content="Themeholy">
-    <meta name="description" content="Artraz - Architecture HTML Template">
-    <meta name="keywords" content="Artraz - Architecture HTML Template">
-    <meta name="robots" content="INDEX,FOLLOW">
+    <title>Officea - À Propos</title>
+
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -33,15 +30,17 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
-	  Google Fonts
-	============================== -->
+ Google Fonts
+ ============================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@100;200;300;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@100;200;300;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!--==============================
-	    All CSS File
-	============================== -->
+ All CSS File
+ ============================== -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome Icon -->
@@ -59,14 +58,14 @@
 
 
     <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
 
 
     <!--********************************
-   		Code Start From Here 
-	******************************** -->
+   Code Start From Here
+ ******************************** -->
 
 
 
@@ -96,7 +95,7 @@
 
                     </li>
                     <li>
-                        <a href="{{ route('a_propos') }}">A propos</a>
+                        <a href="{{ route('a_propos') }}">À Propos</a>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="{{ route('questions_frequentes') }}">Questions fréquentes</a>
@@ -120,7 +119,7 @@
         </div>
     </div>
     <!--==============================
-	Header Area
+ Header Area
 ==============================-->
     <header class="th-header header-layout1">
         <div class="header-top">
@@ -138,7 +137,8 @@
                     <div class="col-auto d-none d-sm-block">
                         <div class="header-links">
                             <ul>
-                                <li><a href="tel:+3223157452" class="header-call"><i class="fas fa-phone"></i>+32 2 315 74 52</a></li>
+                                <li><a href="tel:+3223157452" class="header-call"><i class="fas fa-phone"></i>+32 2
+                                        315 74 52</a></li>
                             </ul>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
                                             <a href="{{ route('home') }}">Home</a>
                                         </li>
                                         <li>
-                                            <a href="{{ route('a_propos') }}">A propos</a>
+                                            <a href="{{ route('a_propos') }}">À Propos</a>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="{{ route('questions_frequentes') }}">Questions fréquentes</a>
@@ -184,7 +184,8 @@
 
                                     </ul>
                                 </nav>
-                                <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                                <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
+                                        class="far fa-bars"></i></button>
                             </div>
                         </div>
                     </div>
@@ -206,7 +207,7 @@
     </div>
 
     <!--==============================
-About Area  
+About Area
 ==============================-->
     <section class="space">
         <div class="container">
@@ -223,12 +224,21 @@ About Area
                             <span class="text-theme">de NOUS</span>
                         </h2>
                         <div class="project-content">
-                            <p class="mb-20">Officea est le fruit d'une collaboration entre deux entrepreneuses ayant une solide expérience dans le domaine comptable. Avant de se lancer dans cette aventure, elles dirigeaient un cabinet comptable et ont rencontré de nombreux entrepreneurs à la recherche d'un business center flexible et abordable. C'est ainsi qu'Officea a vu le jour pour répondre à cette demande croissante.</p>
+                            <p class="mb-20">Officea est le fruit d'une collaboration entre deux entrepreneuses ayant
+                                une solide expérience dans le domaine comptable. Avant de se lancer dans cette aventure,
+                                elles dirigeaient un cabinet comptable et ont rencontré de nombreux entrepreneurs à la
+                                recherche d'un business center flexible et abordable. C'est ainsi qu'Officea a vu le
+                                jour pour répondre à cette demande croissante.</p>
 
                             <h3 class="sec-title fw-normal mb-40">Un bureau
                                 <span class="text-theme">agrémenté</span>
                             </h3>
-                            <p class="mb-20">L'article 6 de la loi du 28 mars 2018 portant sur l'enregistrement des prestataires de services aux sociétés oblige toute entreprise offrant des services de domiciliation commerciale à s'enregistrer auprès du SPF ECONOMIE. L'obtention de cet agrément suppose la mise en conformité des bureaux. Soucieuse de fournir une sécurité juridique à ses clients, Officea fut parmi les premières entreprises belges à obtenir cet enregistrement.</p>
+                            <p class="mb-20">L'article 6 de la loi du 28 mars 2018 portant sur l'enregistrement des
+                                prestataires de services aux sociétés oblige toute entreprise offrant des services de
+                                domiciliation commerciale à s'enregistrer auprès du SPF ECONOMIE. L'obtention de cet
+                                agrément suppose la mise en conformité des bureaux. Soucieuse de fournir une sécurité
+                                juridique à ses clients, Officea fut parmi les premières entreprises belges à obtenir
+                                cet enregistrement.</p>
                         </div>
                     </div>
                 </div>
@@ -237,9 +247,9 @@ About Area
         </div>
     </section>
     <!--==============================
-Testimonial Area  
+Testimonial Area
 ==============================-->
- <section class="space">
+    <section class="space">
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-xl-5 col-lg-6">
@@ -254,12 +264,21 @@ Testimonial Area
                             <span class="text-theme">de NOUS</span>
                         </h2>
                         <div class="project-content">
-                            <p class="mb-20">Officea est le fruit d'une collaboration entre deux entrepreneuses ayant une solide expérience dans le domaine comptable. Avant de se lancer dans cette aventure, elles dirigeaient un cabinet comptable et ont rencontré de nombreux entrepreneurs à la recherche d'un business center flexible et abordable. C'est ainsi qu'Officea a vu le jour pour répondre à cette demande croissante.</p>
+                            <p class="mb-20">Officea est le fruit d'une collaboration entre deux entrepreneuses ayant
+                                une solide expérience dans le domaine comptable. Avant de se lancer dans cette aventure,
+                                elles dirigeaient un cabinet comptable et ont rencontré de nombreux entrepreneurs à la
+                                recherche d'un business center flexible et abordable. C'est ainsi qu'Officea a vu le
+                                jour pour répondre à cette demande croissante.</p>
 
                             <h3 class="sec-title fw-normal mb-40">Un bureau
                                 <span class="text-theme">agrémenté</span>
                             </h3>
-                            <p class="mb-20">L'article 6 de la loi du 28 mars 2018 portant sur l'enregistrement des prestataires de services aux sociétés oblige toute entreprise offrant des services de domiciliation commerciale à s'enregistrer auprès du SPF ECONOMIE. L'obtention de cet agrément suppose la mise en conformité des bureaux. Soucieuse de fournir une sécurité juridique à ses clients, Officea fut parmi les premières entreprises belges à obtenir cet enregistrement.</p>
+                            <p class="mb-20">L'article 6 de la loi du 28 mars 2018 portant sur l'enregistrement des
+                                prestataires de services aux sociétés oblige toute entreprise offrant des services de
+                                domiciliation commerciale à s'enregistrer auprès du SPF ECONOMIE. L'obtention de cet
+                                agrément suppose la mise en conformité des bureaux. Soucieuse de fournir une sécurité
+                                juridique à ses clients, Officea fut parmi les premières entreprises belges à obtenir
+                                cet enregistrement.</p>
                         </div>
                     </div>
                 </div>
@@ -304,8 +323,10 @@ Footer Area
                         </li>
                     </ul>
                 </div>
-                <p class="footer-info2 wow fadeInUp" data-wow-delay="0.3s">RUE JEAN-BAPTISTE VANDENDRIESCH 12 1082 BERCHEM-SAINTE-AGATHE</p>
-                <p class="footer-info2 wow fadeInUp" data-wow-delay="0.3s"><a href="mailto:">CONTACT@OFFICEA.BE</a><a href="tel:+3223157452">+32 2 315 74 52</a></p>
+                <p class="footer-info2 wow fadeInUp" data-wow-delay="0.3s">RUE JEAN-BAPTISTE VANDENDRIESCH 12 1082
+                    BERCHEM-SAINTE-AGATHE</p>
+                <p class="footer-info2 wow fadeInUp" data-wow-delay="0.3s"><a href="mailto:">CONTACT@OFFICEA.BE</a><a
+                        href="tel:+3223157452">+32 2 315 74 52</a></p>
                 <div class="th-social mt-25 wow fadeInUp" data-wow-delay="0.3s">
                     <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                     <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
@@ -322,14 +343,16 @@ Footer Area
 
 
     <!--********************************
-			Code End  Here 
-	******************************** -->
+   Code End  Here
+ ******************************** -->
 
 
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
         </svg>
     </div>
 

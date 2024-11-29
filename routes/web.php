@@ -9,6 +9,4 @@ Route::get('/notre-offre', [PageController::class, 'notreOffre'])->name('notre_o
 Route::get('/tarifs', [PageController::class, 'tarifs'])->name('tarifs');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 
-Route::get('/home', [PageController::class, 'home'])->name('home');
-
-
+Route::get('/', [PageController::class, 'home'])->name('home');

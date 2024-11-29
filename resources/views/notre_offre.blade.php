@@ -4,11 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Artraz - Architecture HTML Template - Services</title>
-    <meta name="author" content="Themeholy">
-    <meta name="description" content="Artraz - Architecture HTML Template">
-    <meta name="keywords" content="Artraz - Architecture HTML Template">
-    <meta name="robots" content="INDEX,FOLLOW">
+    <title>Artraz - Notre Offre</title>
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -80,7 +76,7 @@
 
                     </li>
                     <li>
-                        <a href="{{ route('a_propos') }}">A propos</a>
+                        <a href="{{ route('a_propos') }}">À Propos</a>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="{{ route('questions_frequentes') }}">Questions fréquentes</a>
@@ -147,7 +143,7 @@
                                             <a href="{{ route('home') }}">Home</a>
                                         </li>
                                         <li>
-                                            <a href="{{ route('a_propos') }}">A propos</a>
+                                            <a href="{{ route('a_propos') }}">À Propos</a>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="{{ route('questions_frequentes') }}">Questions fréquentes</a>
@@ -189,7 +185,7 @@
         </div>
     </div>
     <!--==============================
-Service Area  
+Service Area
 ==============================-->
     <section class="space-top">
         <div class="container">
@@ -260,10 +256,10 @@ Service Area
         </div>
     </section>
     <!--==============================
-Job Area  
+Job Area
 ==============================-->
     <section class="space">
-        
+
     </section><!--==============================
 Footer Area
 ==============================-->
@@ -320,7 +316,7 @@ Footer Area
 
 
     <!--********************************
-			Code End  Here 
+			Code End  Here
 	******************************** -->
 
 

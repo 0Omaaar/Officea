@@ -86,7 +86,7 @@
 
                     </li>
                     <li>
-                        <a href="{{ route('a_propos') }}">A propos</a>
+                        <a href="{{ route('a_propos') }}">À Propos</a>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="{{ route('questions_frequentes') }}">Questions fréquentes</a>
@@ -154,7 +154,7 @@
                                             <a href="{{ route('home') }}">Home</a>
                                         </li>
                                         <li>
-                                            <a href="{{ route('a_propos') }}">A propos</a>
+                                            <a href="{{ route('a_propos') }}">À Propos</a>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="{{ route('questions_frequentes') }}">Questions fréquentes</a>
