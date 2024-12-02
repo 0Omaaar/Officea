@@ -199,7 +199,7 @@ Hero Area
                         <div class="hero-meta" data-ani="slideinup" data-ani-delay="0.7s">
                             <span class="meta-info"><i class="far fa-location-dot"></i>Bruxelles, <span
                                     class="text-theme">BEL</span></span>
-                            <span class="meta-info"><i class="far fa-block-brick"></i>1.574 K<sup>2</sup></span>
+                            <span class="meta-info"><i class="far fa-block-brick"></i>146 m<sup>2</sup></span>
                         </div>
                     </div>
                 </div>
@@ -217,8 +217,7 @@ Hero Area
                         <div class="hero-meta" data-ani="slideinup" data-ani-delay="0.7s">
                             <span class="meta-info"><i class="far fa-location-dot"></i>Bruxelles, <span
                                     class="text-theme">BEL</span></span>
-                            <span class="meta-info"><i class="far fa-block-brick"></i>1.574 K<sup>2</sup></span>
-
+                                    <span class="meta-info"><i class="far fa-block-brick"></i>146 m<sup>2</sup></span>
 
                         </div>
                     </div>
@@ -237,7 +236,7 @@ Hero Area
                         <div class="hero-meta" data-ani="slideinup" data-ani-delay="0.7s">
                             <span class="meta-info"><i class="far fa-location-dot"></i>Bruxelles, <span
                                     class="text-theme">BEL</span></span>
-                            <span class="meta-info"><i class="far fa-block-brick"></i>1.200 K</span>
+                                    <span class="meta-info"><i class="far fa-block-brick"></i>146 m<sup>2</sup></span>
                         </div>
                     </div>
                 </div>
