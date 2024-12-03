@@ -91,7 +91,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="{{ route('home') }}"><img src="assets/img/logo.svg" alt="Artraz"></a>
+                <a href="{{ route('home') }}"><img src="assets/img/logo.png" alt="officea"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -158,7 +158,7 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a href="{{ route('home') }}"><img src="assets/img/logo.png" alt="Artraz"></a>
+                                    <a href="{{ route('home') }}"><img src="assets/img/logo.png" alt="officea"></a>
                                 </div>
                             </div>
                             <div class="col-auto">
@@ -413,7 +413,7 @@ Footer Area
             <div class="container">
                 <div class="text-center mb-40 wow fadeInUp" data-wow-delay="0.1s">
                     <a href="{{ route('home') }}">
-                        <img src="assets/img/logo2.svg" alt="Artraz">
+                        <img src="assets/img/logo2.svg" alt="officea">
                     </a>
                 </div>
                 <div class="footer-menu wow fadeInUp" data-wow-delay="0.2s">

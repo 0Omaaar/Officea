@@ -75,7 +75,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="{{ route('home') }}"><img src="assets/img/logo.svg" alt="Artraz"></a>
+                <a href="{{ route('home') }}"><img src="assets/img/logo.png" alt="Artraz"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
